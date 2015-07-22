@@ -2,7 +2,7 @@
   "name": "register-noop",
   "version": "0.1.0",
   "description": "register noop loader in node.js",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "prepublish": "mkdir lib; ./node_modules/.bin/babel -o lib/index.js src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
