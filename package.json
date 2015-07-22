@@ -1,6 +1,6 @@
 {
   "name": "register-noop",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "register noop loader in node.js",
   "main": "lib/index.js",
   "scripts": {
