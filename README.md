@@ -26,7 +26,7 @@ require("./style2.css");
 module.export = React.createClass({...});
 ```
 
-and adding comma-delimited file extensions to package.json:
+To setup what's going to ignore, add comma-delimited file extensions to package.json if you use ```npm run xxx``` commands:
 ```json
 {
   "main": "...",
@@ -35,3 +35,5 @@ and adding comma-delimited file extensions to package.json:
   }
 }
 ```
+
+Or you can simple add env var ```npm_package_config_ignore_ext=.sass,.css,.less```
